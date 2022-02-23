@@ -1,0 +1,16 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background-in-3d-paper-style_23-2148403778.jpg?size=626&ext=jpg&ga=GA1.2.2095726712.1604880000);
+    background-size: 100%;
+}
+
+.cont {
+    display: inline;
+}
+
+.button {
+    background-color: rgba(10, 104, 245, 0.411);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 30px;
+    border: 0px;
+}
