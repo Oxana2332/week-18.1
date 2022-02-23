@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерфейс для комментариев со спамфильтром</title>
+    <link rel="stylesheet" href="assets/comments.css">
+</head>
+
+<body>
+    <article class="cont">
+        <h1>Hi!!! How are you?</h1>
+        <div id="container"></div>
+            <label for="author">Имя *
+                <input type="text" name="author" id="author" value="">
+            </label>
+        <p>Чтобы добавить аватарку введите URL-адрес картинки:
+            <input type="text" id="img">      
+        </p>
+            <label for="comment">Комментарий:
+                <textarea name="comment" rows="5" cols="38" id="comment"></textarea>
+            </label>
+            <button class="button">Отправить</button>
+    </article>
+
+    <script src="script/comments.js"></script>
+</body>
+
+</html>

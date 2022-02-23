@@ -1,0 +1,12 @@
+.cont {
+    margin: 7% 40%;
+}
+
+.button {
+    background-color: rgb(255, 217, 0);
+    width: 100%;
+    height: 30px;
+    margin-top: 3vh;
+    border: 0px;
+    border-radius: 5px;
+}
